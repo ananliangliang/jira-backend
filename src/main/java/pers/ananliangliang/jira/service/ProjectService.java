@@ -2,8 +2,8 @@ package pers.ananliangliang.jira.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pers.ananliangliang.jira.dto.ProjectDTO;
-import pers.ananliangliang.jira.entity.Project;
+import pers.ananliangliang.jira.model.dto.ProjectDTO;
+import pers.ananliangliang.jira.model.Project;
 import pers.ananliangliang.jira.repository.ProjectRepository;
 
 import java.util.List;

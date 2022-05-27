@@ -2,7 +2,7 @@ package pers.ananliangliang.jira.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import pers.ananliangliang.jira.entity.Project;
+import pers.ananliangliang.jira.model.Project;
 
 import java.util.List;
 

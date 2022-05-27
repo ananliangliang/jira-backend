@@ -2,7 +2,7 @@ package pers.ananliangliang.jira.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import pers.ananliangliang.jira.dto.ProjectDTO;
+import pers.ananliangliang.jira.model.dto.ProjectDTO;
 import pers.ananliangliang.jira.service.ProjectService;
 
 import java.util.List;

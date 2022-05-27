@@ -1,12 +1,11 @@
 package pers.ananliangliang.jira.controller;
 
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pers.ananliangliang.jira.dto.UserDTO;
+import pers.ananliangliang.jira.model.dto.UserDTO;
 import pers.ananliangliang.jira.repository.UserRepository;
 
 import java.util.List;

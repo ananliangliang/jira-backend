@@ -1,4 +1,4 @@
-package pers.ananliangliang.jira.entity;
+package pers.ananliangliang.jira.model;
 
 import lombok.Data;
 import lombok.Getter;
@@ -10,7 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Timestamp;
 
-@Data
+@Getter
+@Setter
 @Entity
 public class Project {
     @Id

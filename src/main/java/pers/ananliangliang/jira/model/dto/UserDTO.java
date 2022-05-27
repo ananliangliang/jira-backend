@@ -1,4 +1,4 @@
-package pers.ananliangliang.jira.dto;
+package pers.ananliangliang.jira.model.dto;
 
 import lombok.Builder;
 import lombok.Data;
